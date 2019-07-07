@@ -14,7 +14,7 @@ public class Wilder {   // classe wilder
 				
 					 public Wilder (String firstname , boolean aware) {
 					        this.firstname = firstname;
-					        this.aware = false;
+					        this.aware = aware;
 					 }
 					 
 			
@@ -31,7 +31,7 @@ public class Wilder {   // classe wilder
 			   
 			      public void setaware(boolean aware) // set et get de aware
 			     {
-			        this.aware = false;
+			        this.aware = aware;
 			      } 
 			 
 			      public boolean isaware()
@@ -40,7 +40,7 @@ public class Wilder {   // classe wilder
 			      }
 		
 				
-					public String whoAmI() {   // méthode instantanée
+					public String whoAmI() {   // mÃ©thode instantanÃ©e
 						
 						String etataware = "je suis aware";
 						if (!this.isaware());
